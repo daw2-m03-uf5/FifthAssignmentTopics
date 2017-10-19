@@ -1,0 +1,12 @@
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
+# export PATH=$JAVA_HOME/bin:$PATH
+
+language: java
+jdk: oraclejdk8
+install: false
+script: mvn clean test
+# mvn [ <life cycle> ]  [ <build phase> ]
+# script: mvn [ default | clean | site ] [ validate | compile | test | package | install | deploy ]
+cache:
+  directories:
+  - $HOME/.m2
