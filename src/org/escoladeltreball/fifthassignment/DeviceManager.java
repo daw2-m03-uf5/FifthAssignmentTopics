@@ -83,6 +83,6 @@ public abstract class DeviceManager {
 	 * @throws Exception
 	 *             When devices is null
 	 */
-	public abstract Map<DeviceType, Double> findCheapestDeviceOfEachType() throws Exception;
+	public abstract Map<DeviceType, Device> findCheapestDeviceOfEachType() throws Exception;
 
 }
