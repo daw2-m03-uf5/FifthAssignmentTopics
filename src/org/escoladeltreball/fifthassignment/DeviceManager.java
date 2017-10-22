@@ -1,5 +1,5 @@
 /**
- * 
+ * An abstract device's manager
  */
 package org.escoladeltreball.fifthassignment;
 

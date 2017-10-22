@@ -1,5 +1,5 @@
 /**
- * 
+ * A concrete device's manager implementation to work collection out in depth
  */
 package org.escoladeltreball.fifthassignment;
 

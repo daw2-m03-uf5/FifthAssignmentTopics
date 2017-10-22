@@ -1,5 +1,5 @@
 /**
- * 
+ * A physical electronic device
  */
 package org.escoladeltreball.fifthassignment;
 
